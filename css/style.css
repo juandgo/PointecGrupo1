@@ -19,17 +19,26 @@ h1{
 }
 
 .contenedor img {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 50%;
     width: 50%;
+    display: pa;
 }
 
 .contenedor .contenedor-imagen1 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 150vh;
     width: 150vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+
+
+    
 }

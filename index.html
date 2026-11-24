@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="./css/style.css">
+
 <head>
     <title>My Website</title>
 </head>
@@ -20,7 +21,7 @@
         <section id="inicio">
             <h2>Inicio</h2>
             <p>Bienvenido a mi sitio web. Aqui podras encontrar informacion sobre mi y mis proyectos.</p>
-        <!-- <img src="img/images.jpg" alt="Imagen de disney o pixar" width="500" height="500"> -->
+            <!-- <img src="img/images.jpg" alt="Imagen de disney o pixar" width="500" height="500"> -->
         </section>
         <section id="sobre-mi">
             <label for="name">Carrera:</label>
@@ -90,13 +91,26 @@
         </section>
 
     </main>
+    <img class="contenedor-imagen1" src="./img/card-1.jpg" alt="esta imagen es la del contenedor" width="500"
+        height="500">
 
     <div class="contenedor">
-        <img class="contenedor-imagen1" src="./img/card-1.jpg" alt="esta imagen es la del contenedor" width="500" height="500">
         <img src="./img/card-2.jpg" alt="">
     </div>
 
-    
+    <script>
+        //alert("Hola biemvenido a mi sitio web"); 
+
+        const edad = prompt("¿Cuál es tu edad?", "");
+        console.log(edad);
+
+        if (edad >= 18) {
+            alert("Eres mayor de edad");
+        } else {
+            alert("Eres menor de edad");
+        }
+
+    </script>
 </body>
 
 </html>
